@@ -18,7 +18,7 @@ The full dataset is compressed into a single archive and hosted on Kaggle to ens
 !kaggle datasets download -d adithyabhaskar/stock-data-split --unzip
 ```
 # 📂 Dataset Structure
-```After extraction, the dataset has the following layout:```
+After extraction, the dataset has the following layout:
 
 ```
 data/
