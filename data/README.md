@@ -20,9 +20,7 @@ The full dataset is compressed into a single archive and hosted on Kaggle to ens
 # 📂 Dataset Structure
 ```After extraction, the dataset has the following layout:```
 
-php
-Copy
-Edit
+```
 data/
 ├── static_raw/                  # Original raw datasets from Kaggle & Yahoo Finance
 │   ├── nifty50/
@@ -32,7 +30,7 @@ data/
 ├── processed/
 │   ├── static/                  # Cleaned historical stock data (static)
 │   ├── live/                    # yFinance-based live data
-│   └── enriched/                # Enriched with indicators (SMA, EMA, RSI, MACD)
+│   └── enriched/                # Enriched with indicators (SMA, EMA, RSI, MACD)```
 ```
 Each CSV file includes columns like:
 
