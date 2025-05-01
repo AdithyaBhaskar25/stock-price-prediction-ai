@@ -17,8 +17,8 @@ The full dataset is compressed into a single archive and hosted on Kaggle to ens
 ```bash
 !kaggle datasets download -d adithyabhaskar/stock-data-split --unzip
 ```
-📂 Dataset Structure
-After extraction, the dataset has the following layout:
+# 📂 Dataset Structure
+```After extraction, the dataset has the following layout:```
 
 php
 Copy
