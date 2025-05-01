@@ -37,7 +37,7 @@ To develop a robust stock forecasting system that uses:
 📁 data/             → Datasets (Kaggle + yFinance CSVs)  
 📁 notebooks/        → Google Colab notebooks  
 📁 models/           → Trained ML/DL models
-📁 plots/           → Plots stored as images   
+📁 plots/            → Plots stored as images   
 📁 streamlit_app/    → Streamlit app code for UI  
 📁 reports/          → Phase-wise documentation + screenshots  
 📄 requirements.txt  → List of required Python packages  
