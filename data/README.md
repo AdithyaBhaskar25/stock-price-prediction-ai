@@ -37,7 +37,7 @@ Each CSV file includes columns like:
 Date, Open, High, Low, Close, Volume
 
 Additional features like SMA_20, EMA_50, RSI, etc.
-```
+
 ## ⚠️ File Size Notice
 Note: This GitHub folder does not include the full dataset due to size limitations.
 
