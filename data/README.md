@@ -60,8 +60,9 @@ This dataset is prepared and enriched to support:
 ## 👥 Credits
 This dataset is compiled and maintained by the team at Tagore Engineering College:
 
-Name	Reg. No.	Responsibility
-Adithya B	412723104003	Full-stack dev & integration
-Hemnath S	412723104040	Model evaluation
-Harish Kumar K	412723104037	Report writing & presentation
-Joshua D	412723104051	Data collection & structuring
+| Name               | Register Number  | Responsibility                                |
+|--------------------|------------------|-----------------------------------------------|
+| **Adithya B**      | 412723104003      | Full-stack dev & integration |
+| **Joshua D**       | 412723104051      | Data collection and structuring (Kaggle, yFinance) |
+| **Hemnath S**      | 412723104040      | Model evaluation |
+| **Harish Kumar K** | 412723104037      | Report writing & presentation |
