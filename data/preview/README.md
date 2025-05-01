@@ -1,7 +1,7 @@
 # 📁 Preview Files – Sample Stock Data
 
 This folder contains a subset of the full dataset for preview purposes only.  
-Each file includes the **first 200 rows** from different sources:
+Each file includes the **files** from different sources:
 
 | File Name                  | Type       | Source     | Description                     |
 |---------------------------|------------|------------|---------------------------------|
