@@ -24,4 +24,7 @@ All files contain variations of:
 
 ## 📦 License
 
-This preview is part of an academic project and is shared under the [CC0-1.0 License](https://creativecommons.org/publicdomain/zero/1.0/).
+These preview files are distributed under the **MIT License** as part of the academic capstone project:
+
+**© 2025 Adithya B & Team**
+Tagore Engineering College, Department of Computer Science and Engineering
