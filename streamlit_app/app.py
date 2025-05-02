@@ -22,7 +22,7 @@ with st.sidebar:
     selected_ticker = st.selectbox("Select Stock", available_tickers)
     selected_model = st.radio("Select Model", models)
     st.markdown("---")
-    st.markdown("Built with ❤️ by Adithya")
+    st.markdown("Built with ❤️ by Stock Predictors")
 
 # 📊 Section: Comparison Plot
 st.subheader(f"📊 Comparison Plot for {selected_ticker}")
