@@ -48,7 +48,7 @@ To develop a robust stock forecasting system that uses:
 🔗 Project Status
 📌 Phase 1: ✅ Submitted
 
-📊 Phase 2: 🔄 In Progress
+📊 Phase 2: ✅ Submitted
 
 🚀 Phase 3: 🔒 Coming Soon
 ```
