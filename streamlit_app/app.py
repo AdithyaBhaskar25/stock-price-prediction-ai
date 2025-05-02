@@ -28,7 +28,7 @@ with st.sidebar:
 st.subheader(f"📊 Comparison Plot for {selected_ticker}")
 plot_path = f"plots/{selected_ticker}_comparison.png"
 if os.path.exists(plot_path):
-    st.image(plot_path, use_column_width=True)
+    st.image(plot_path, use_container_width=True)
 else:
     st.warning("⚠️ Plot not found for this stock.")
 
@@ -52,16 +52,7 @@ else:
         X_test, y_true = load_npz_predictions(selected_ticker)
         y_pred = model.predict(X_test)
 
-        # Rescale prediction
-        path = f"preprocessed/{selected_ticker}_processed.npz"
-        data = np.load(path)
-        min_, max_ = data["scaler_min_"], data["scaler_max_"]
-        y_pred = y_pred * (max_ - min_) + min_
-
-        rmse = compute_rmse(y_true, y_pred)
-
-        st.subheader("📈 Model Performance")
-        st.write(f"**RMSE:** {rmse}")
+       
 
         # Plot actual vs predicted
         st.subheader("🔍 Visual Preview (Last 100 points)")
