@@ -45,25 +45,8 @@ if selected_model == "Prophet":
         except Exception as e:
             st.error(f"Prophet CSV Load Error: {e}")
 
-# 🤖 Section: Predict from Keras Model
-else:
-    try:
-        model = load_keras_model(selected_ticker, selected_model)
-        X_test, y_true = load_npz_predictions(selected_ticker)
-        y_pred = model.predict(X_test)
 
-       
 
-        # Plot actual vs predicted
-        st.subheader("🔍 Visual Preview (Last 100 points)")
-        chart_df = pd.DataFrame({
-            "Actual": y_true.flatten()[-100:],
-            "Predicted": y_pred.flatten()[-100:]
-        })
-        st.line_chart(chart_df)
-
-    except Exception as e:
-        st.error(f"Prediction Error: {e}")
 
 # ✅ Done
 st.success("App Ready and Running!")
