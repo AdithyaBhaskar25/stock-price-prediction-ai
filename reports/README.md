@@ -111,3 +111,10 @@ You can find these files in the `reports/` folder.
 ![AppScreenshot](https://github.com/user-attachments/assets/4bc56a93-6e7a-45a5-aac2-1b85d1124dab)
 
 **Thank You For Reading Until The End**
+## ✅ Final Notes
+
+All models are pre-trained and can be used directly via the web app.
+
+The project is scalable to more stocks or new models with minimal changes.
+
+Designed to be modular, reproducible, and deployable.
