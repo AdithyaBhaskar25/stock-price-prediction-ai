@@ -85,13 +85,13 @@ You can find these files in the `reports/` folder.
 ## 🗂️ Folder Structure Overview
 
 ```bash
-├── raw/                # Raw downloaded data
+├── data/               # data files
+├── raw/               # Raw downloaded data
 ├── processed/          # Cleaned and preprocessed data
 ├── models/             # Trained models (LSTM, GRU, Prophet)
 ├── plots/              # Comparative visualizations
 ├── reports/            # PDF documentation
-├── templates/          # HTML templates for web app
-├── static/             # CSS and JS assets
+├── streamlit_app/      # Deployment files with streamlit
 ├── app.py              # Flask backend
 ├── utils.py            # Utility functions
 ├── requirements.txt    # Python package requirements
