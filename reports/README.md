@@ -62,8 +62,6 @@ To develop a fast and responsive web application for real-time model inference a
 ### 📦 Files & Structure
 - `app.py`: Main web application script.
 - `utils.py`: Helper methods for prediction and plotting.
-- `templates/`: HTML files for frontend.
-- `static/`: JS/CSS assets.
 
 ### 📈 Deployment Ready
 - Models and plots are ready.
