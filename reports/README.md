@@ -76,7 +76,7 @@ Each phase includes detailed documentation and outcomes, compiled as PDFs:
 - `Phase-1_Report.pdf`
 - `Phase-2_Report.pdf`
 - `Phase-3_Report.pdf`
-- `Full_Project_Report.pdf` (Common version covering all three phases)
+- `Combined_Phase_Report.pdf` (Common version covering all three phases)
 
 You can find these files in the `reports/` folder.
 
