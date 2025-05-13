@@ -53,7 +53,7 @@ To build, train, and compare the performance of LSTM, GRU, and Prophet models on
 To develop a fast and responsive web application for real-time model inference and comparison.
 
 ### 🛠️ App Features
-- Built with `Flask`
+- Built with `Streamlit`
 - Real-time model loading and inference.
 - User selects stock + model for forecast.
 - Graceful error handling and fallback logic.
@@ -86,13 +86,13 @@ You can find these files in the `reports/` folder.
 
 ```bash
 ├── data/               # data files
-├── raw/               # Raw downloaded data
+├── raw/                # Raw downloaded data
 ├── processed/          # Cleaned and preprocessed data
 ├── models/             # Trained models (LSTM, GRU, Prophet)
 ├── plots/              # Comparative visualizations
 ├── reports/            # PDF documentation
 ├── streamlit_app/      # Deployment files with streamlit
-├── app.py              # Flask backend
+├── app.py              # Streamlit backend
 ├── utils.py            # Utility functions
 ├── requirements.txt    # Python package requirements
 ├── README.md           # Project overview
